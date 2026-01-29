@@ -180,12 +180,12 @@ export const skills: SkillGroup[] = [
         level: 7,
       },
       {
-        name: 'Flutter',
-        level: 4,
+        name: '-',
+        level: 0,
       },
       {
-        name: 'Swift',
-        level: 3,
+        name: '-',
+        level: 0,
       },
     ],
   },
