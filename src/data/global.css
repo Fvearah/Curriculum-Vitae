@@ -1,0 +1,30 @@
+@media print {
+  
+  nav,
+  footer,
+  button,
+  .swiper,
+  .pagination {
+    display: none !important;
+  }
+
+
+  section {
+    min-height: auto !important;
+    height: auto !important;
+    page-break-inside: avoid;
+  }
+
+ 
+  body {
+    margin: 0;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  
+  main {
+    max-width: 210mm;
+    margin: 0 auto;
+  }
+}
