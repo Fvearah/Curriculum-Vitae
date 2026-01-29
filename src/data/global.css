@@ -1,13 +1,28 @@
 @media print {
-  
   nav,
   footer,
-  button,
-  .swiper,
-  .pagination {
+  button {
     display: none !important;
   }
 
+  * {
+    animation: none !important;
+    transition: none !important;
+    overflow: visible !important;
+  }
+
+  .opacity-0 {
+    opacity: 1 !important;
+  }
+
+  .hidden {
+    display: block !important;
+  }
+
+  .absolute,
+  .fixed {
+    position: static !important;
+  }
 
   section {
     min-height: auto !important;
@@ -15,16 +30,7 @@
     page-break-inside: avoid;
   }
 
- 
   body {
-    margin: 0;
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
-  }
-
-  
-  main {
-    max-width: 210mm;
-    margin: 0 auto;
+    background: white !important;
   }
 }
